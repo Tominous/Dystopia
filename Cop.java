@@ -97,10 +97,10 @@ public static int[][] navigationMap;
 	 * @
 	 */
 	public static void floodFillMap(int inX, int inY) {
-		//System.out.println(inX+"|"+inY);
+		System.out.println(inX+"|"+inY);
 
 		navigationMap = new int[Map.map.length][Map.map[0].length];
-		//System.out.println(navigationMap.length+"|"+navigationMap[0].length);
+		System.out.println(navigationMap.length+"|"+navigationMap[0].length);
 		markOpen(inX, inY, 1);
 		for (int i = 0; i < navigationMap.length; i++) {
 			for (int j = 0; j < navigationMap[0].length; j++) {
